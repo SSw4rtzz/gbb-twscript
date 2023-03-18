@@ -7,10 +7,11 @@
 // @include https://www.tribalwars.com.pt/*?welcome=1*
 // @include https://*/game.php?screen=overview&intro*
 // @require https://code.jquery.com/jquery-2.2.4.min.js
+// @download https://github.com/SSw4rtzz/gbb-twscript/raw/TW/Account%20Cretor.user.js
 // @run-at document-end
 // ==/UserScript==
 
-var url = ""; //Link de convite
+var conviteURL = ""; //Link de convite
 var mundo = "90"; //Mundo
 
 const criarConta = "?ref=player_invite_linkrl";
